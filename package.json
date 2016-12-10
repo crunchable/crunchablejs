@@ -1,0 +1,47 @@
+{
+  "name": "crunchable",
+  "version": "0.1.0",
+  "description": "A thin wrapper around the crunchable human-intelligence api",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "babel --presets es2015,stage-0 -d lib/ src/",
+    "prepublish": "npm run compile"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/crunchable/crunchablejs.git"
+  },
+  "keywords": [
+    "crunchable",
+    "ai",
+    "ml",
+    "human",
+    "ocr",
+    "sentiment-analysis",
+    "moderation",
+    "classification",
+    "classifier"
+  ],
+  "author": "crunchable",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/crunchable/crunchablejs/issues"
+  },
+  "homepage": "https://github.com/crunchable/crunchablejs#readme",
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-eslint": "^7.1.1",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-stage-0": "^6.16.0",
+    "eslint": "^3.12.0",
+    "eslint-config-airbnb-base": "^10.0.1",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint_d": "^4.2.1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.20.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash": "^4.17.2"
+  }
+}
